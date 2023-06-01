@@ -7,6 +7,7 @@ import {
   View,
   ImageBackground,
 } from "react-native";
+import {KeyboardAvoidingView} from "react-native-gifted-chat";
 
 const Start = ({ navigation }) => {
   const [text, setText] = useState("");
